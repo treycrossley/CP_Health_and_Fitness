@@ -7,8 +7,62 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  
+  
+<div class="nav">
+      <div class="container">
+        <ul class ="pull-left nav nav-tabs nav-justified">
+          <li><%= link_to "Home", '/' %></li>
+          <li><%= link_to "Bio", 'bio' %> </li>
+          <li><%= link_to "Health Coach", 'health_coach' %> </li>
+          <li><%= link_to "Training", 'training' %> </li>
+          <li><%= link_to "Shakeology", 'https://www.shakeology.com/cmperry' %> </li>
+        </ul>
+      </div>
+    </div>
+    
+    
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Work toward a better you</h1>
+        <p>Let me guide you as you start eating healthier, training harder, and living an overall better lifestyle</p>
+        
+      </div>
+    </div> 
+    
+    
 <%= yield %>
+
+<div class ='footer'>
+  <div class="container">
+    <div class='row'>
+      <div class='col-md-4 float-left'>
+        
+        <img src="http://www.fit4lifejax.com/wp-content/uploads/2014/09/ace2.png">
+        
+      </div>
+      
+      <div class="col-md-4">
+        
+        <%= image_tag "lets.gif" %>
+      </div>
+      
+      <div class="col-md-4" align="right">
+       <br> <p>Contact Hours 8am to 5pm <br>
+        cindy.perry111@gmail.com<br>(949) 887-0425 </p>
+        
+      </div>
+    </div>
+    
+  </div>
+  
+  
+</div>
+
+
+
+
+
 
 </body>
 </html>
